@@ -1,0 +1,21 @@
+[project]
+name = "ml-zoomcamp-26"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Marlon Chhour", email = "marlon1293@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "lab>=8.10",
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+ml-zoomcamp-26 = "ml_zoomcamp_26:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
